@@ -49,8 +49,12 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+<<<<<<< Updated upstream
+                android:src="@drawable/tfl2_logo" />
+=======
                 android:paddingRight="280dp"
                 android:src="@drawable/langur_logo" />
+>>>>>>> Stashed changes
         </androidx.appcompat.widget.Toolbar>
 
     </RelativeLayout>

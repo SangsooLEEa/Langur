@@ -41,7 +41,6 @@ import android.os.HandlerThread;
 import android.os.Trace;
 import androidx.annotation.NonNull;
 import androidx.annotation.UiThread;
-import com.google.android.material.bottomsheet.BottomSheetBehavior;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.content.FileProvider;
@@ -61,9 +60,13 @@ import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
+<<<<<<< Updated upstream
+import com.google.android.material.bottomsheet.BottomSheetBehavior;
+=======
 
 import java.io.File;
 import java.io.IOException;
+>>>>>>> Stashed changes
 import java.nio.ByteBuffer;
 import java.util.List;
 import java.util.Locale;
@@ -679,7 +682,7 @@ public abstract class CameraActivity extends AppCompatActivity
   }
 
   protected void showCameraResolution(String cameraInfo) {
-    cameraResolutionTextView.setText(previewWidth + "x" + previewHeight);
+    cameraResolutionTextView.setText(cameraInfo);
   }
 
   protected void showRotationInfo(String rotation) {
